@@ -1,0 +1,30 @@
+﻿<html>
+<head>
+    <script type="text/javascript" src="jquery-3.5.1.js"></script>
+    <script type="text/javascript" src="js_cpu_core.js"></script>
+    <script type="text/javascript" src="js_cpu_ui.js"></script>
+    <script type="text/javascript" src="js_cpu.js"></script>
+
+    <style type="text/css">
+        .comm_table table {
+            margin-bottom: 30px;
+            border-collapse: collapse;
+            width: 100px;
+        }
+        .comm_table table tr td {
+            border: 1px solid black;
+        }
+        .current_execute{
+            background: rgb(222,222,255);
+        }
+    </style>
+</head>
+<body>
+<div>寄存器值：</div>
+<hr>
+<div id="state_container" class="comm_table"></div>
+<div>进程代码：</div>
+<hr>
+<div id="code_container" class="comm_table"></div>
+</body>
+</html>
